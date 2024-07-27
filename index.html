@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookCollections</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <nav class ="navbar">
+        <h1>Books Collection</h1>
+    </nav>
+    
+    <div class="container">
+        
+        <div class="book-container">
+            <h1>Agni Siragugal</h1>
+            <h3>Abdul Kalam</h3>
+            <p>Motivational</p>
+            <button onclick="deletebook(event)">Delete</button>
+
+        </div>
+        <div class="overlay"></div>
+        <div class="popupbox">
+            <form class="popupform">
+                <input id="bookname" type="text" placeholder="Book Name">
+                <input  id="authorname"type="text" placeholder="Author Name">
+                <textarea id="textarea"placeholder="Short Description"></textarea>
+                <button class="add-btn">Add</button>
+                <button class="cancel-btn">Cancel</button>
+
+
+            </form>
+        </div>
+
+       
+
+        <button class="addbook-btn">+</button>
+        
+    </div>
+
+
+</body>
+<script src="index.js">
+
+</script>
+
+</html>
